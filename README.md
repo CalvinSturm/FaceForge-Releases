@@ -8,8 +8,28 @@ advanced, consent-based Pro workflow and is not the main public alpha focus.
 
 ## Download
 
-Download the latest ZIP from
-[GitHub Releases](https://github.com/CalvinSturm/FaceForge-Releases/releases).
+The NVIDIA Windows ZIP is hosted externally because the CUDA runtime exceeds
+GitHub's release asset size limit. The
+[GitHub Release](https://github.com/CalvinSturm/FaceForge-Releases/releases)
+page provides the release notes and the `SHA256SUMS.txt` checksum file.
+
+Download `FaceForge-v0.1.0-alpha-win-x64.zip`:
+
+```text
+PENDING_EXTERNAL_DOWNLOAD_URL
+```
+
+SHA-256:
+
+```text
+48c012fb8da80ac8ecb00d71a21346c03b6b69030829405b0bd6bdb1f847a83c
+```
+
+Verify the downloaded ZIP against `SHA256SUMS.txt` before running the app:
+
+```powershell
+Get-FileHash .\FaceForge-v0.1.0-alpha-win-x64.zip -Algorithm SHA256
+```
 
 Current release target: **v0.1.0-alpha**
 
@@ -27,7 +47,8 @@ Website: [FaceForge](https://www.calvinsturm.com/faceforge)
 
 FaceForge v0.1.0 Alpha is currently unsigned. Windows SmartScreen may warn that
 the app is from an unknown publisher. Only run FaceForge if you downloaded it
-from the official GitHub Releases page above.
+from the official download link published on this page, and verify the SHA-256
+checksum against `SHA256SUMS.txt` first.
 
 ## Model Setup
 

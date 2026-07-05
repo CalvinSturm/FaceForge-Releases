@@ -9,10 +9,34 @@ possible missing model setup depending on the ZIP contents.
 ## Release Type
 
 - Windows portable desktop bundle
-- Current target artifact: `FaceForge-Free-NVIDIA.zip`
+- Current target artifact: `FaceForge-v0.1.0-alpha-win-x64.zip`
 - Intended tag: `v0.1.0-alpha`
 - Intended release title: `FaceForge v0.1.0 Alpha`
 - Intended GitHub Release setting: prerelease
+
+## Download
+
+The NVIDIA Windows ZIP is hosted externally because the CUDA runtime exceeds
+GitHub's release asset size limit. This GitHub release provides the release
+notes and the `SHA256SUMS.txt` checksum file.
+
+Download `FaceForge-v0.1.0-alpha-win-x64.zip`:
+
+```text
+PENDING_EXTERNAL_DOWNLOAD_URL
+```
+
+SHA-256:
+
+```text
+48c012fb8da80ac8ecb00d71a21346c03b6b69030829405b0bd6bdb1f847a83c
+```
+
+Verify the downloaded ZIP against `SHA256SUMS.txt` before running the app:
+
+```powershell
+Get-FileHash .\FaceForge-v0.1.0-alpha-win-x64.zip -Algorithm SHA256
+```
 
 ## Highlights
 
@@ -68,4 +92,8 @@ scams, or misleading identity use.
 
 ## Checksums
 
-See `SHA256SUMS.txt` for the release ZIP checksum.
+See `SHA256SUMS.txt` for the release ZIP checksum:
+
+```text
+48c012fb8da80ac8ecb00d71a21346c03b6b69030829405b0bd6bdb1f847a83c  FaceForge-v0.1.0-alpha-win-x64.zip
+```
