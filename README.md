@@ -13,7 +13,11 @@ GitHub's release asset size limit. The
 [GitHub Release](https://github.com/CalvinSturm/FaceForge-Releases/releases)
 page provides the release notes and the `SHA256SUMS.txt` checksum file.
 
-Download `FaceForge-v0.1.0-alpha-win-x64.zip`:
+Get FaceForge from the official itch.io page:
+
+[FaceForge on itch.io](https://calvinsturm.itch.io/faceforge)
+
+Direct download `FaceForge-v0.1.0-alpha-win-x64.zip`:
 
 [FaceForge-v0.1.0-alpha-win-x64.zip (Google Drive)](https://drive.google.com/file/d/1Ltxfm12nJDte8t6kmQ-VFJDAv-wFUAIE/view?usp=sharing)
 
