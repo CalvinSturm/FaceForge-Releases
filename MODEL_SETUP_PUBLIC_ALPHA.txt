@@ -1,0 +1,22 @@
+FaceForge v0.1.0 Alpha model setup
+==================================
+
+Some third-party model weights may not be bundled with the public alpha until redistribution rights are confirmed.
+
+If FaceForge reports missing model files, place app-local model files under:
+
+FaceForge\models\
+
+The exact files needed may depend on the alpha ZIP and the workflow you are testing.
+
+Conservative model handling
+---------------------------
+
+- Only use model files that you are allowed to download and use.
+- Keep model files local to your own FaceForge installation unless you have confirmed redistribution rights.
+- Open-source software licenses for app components do not automatically grant redistribution rights for third-party model weights.
+
+Plain warning
+-------------
+
+Do not redistribute third-party model weights unless you have confirmed redistribution rights.

@@ -1,63 +1,69 @@
 # FaceForge Releases
 
-FaceForge is a local Windows video privacy tool for creators, editors, and small teams.
+FaceForge is a privacy-first, local-only Windows desktop app for AI face blur
+and video redaction.
 
-Use it to blur faces, protect identities, and export privacy-safe videos without uploading footage to the cloud.
+The default workflow is **Blur Faces / Privacy**. Face replacement is an
+advanced, consent-based Pro workflow and is not the main public alpha focus.
 
 ## Download
 
-Get the latest Windows release from the Releases page.
+Download the latest ZIP from
+[GitHub Releases](https://github.com/CalvinSturm/FaceForge-Releases/releases).
 
-## Current release
+Current release target: **v0.1.0-alpha**
 
-FaceForge v0.1.0 Alpha
-
-- Default Blur Faces / Privacy workflow
-- Local Windows processing
-- Free export mode with visible watermark
-- 60-second Free export limit
-- Pro/Studio tier foundation
-- Consent gate for face replacement workflows
+Website: [FaceForge](https://www.calvinsturm.com/faceforge)
 
 ## Requirements
 
-- Windows 10/11
-- NVIDIA RTX GPU recommended
+- Windows 10 or Windows 11
+- NVIDIA RTX GPU recommended for the current NVIDIA alpha bundle
+- Recent NVIDIA driver recommended
 - 16 GB RAM minimum, 32 GB recommended
+- Enough free disk space for the extracted portable app and local model files
 
-## Model setup
+## Unsigned Alpha Warning
 
-Some alpha ZIP builds may exclude third-party model weights until redistribution rights are confirmed.
+FaceForge v0.1.0 Alpha is currently unsigned. Windows SmartScreen may warn that
+the app is from an unknown publisher. Only run FaceForge if you downloaded it
+from the official GitHub Releases page above.
 
-If your ZIP includes `MODEL_SETUP_PUBLIC_ALPHA.txt`, follow that file and place the required local model files next to `FaceForge.exe` under `models\`.
+## Model Setup
 
-Do not redistribute third-party model weights unless you have verified the license and redistribution terms for each file.
+Some third-party model weights may not be bundled with the alpha until
+redistribution rights are confirmed. If the app reports missing models, see:
 
-## Safety and allowed use
+[MODEL_SETUP_PUBLIC_ALPHA.txt](MODEL_SETUP_PUBLIC_ALPHA.txt)
 
-Face replacement features are intended only for authorized, consent-based use.
+App-local model files belong under:
 
-Do not use FaceForge for:
+```text
+FaceForge\models\
+```
 
-- impersonation
-- harassment
-- minors
-- explicit or sexual content
-- public-figure deception
-- media you do not have rights to use
-- nonconsensual media
+## Safety
 
-Some platforms require disclosure for realistic AI-altered media.
+FaceForge is primarily for privacy-preserving face blur and redaction. Use face
+replacement only with consent and rights to both the source and target media. Do
+not use FaceForge for impersonation, harassment, nonconsensual media, minors,
+fraud, or misleading identity use.
+
+See [SAFETY.md](SAFETY.md).
+
+## Privacy
+
+The core video processing workflow is local-first and runs on your Windows
+desktop. Do not upload private or sensitive videos to public GitHub issues.
+
+See [PRIVACY.md](PRIVACY.md).
 
 ## Support
 
-Open an issue in this repository with:
+Open an issue in this repository:
+[FaceForge Releases issues](https://github.com/CalvinSturm/FaceForge-Releases/issues)
 
-- Windows version
-- GPU model
-- FaceForge version
-- what you tried
-- what happened
-- screenshots if useful
+Include your FaceForge version, Windows version, GPU model, what you tried, and
+what happened. Do not upload private videos, faces, IDs, or sensitive footage.
 
-Do not upload private, sensitive, or identifying videos.
+See [SUPPORT.md](SUPPORT.md).
