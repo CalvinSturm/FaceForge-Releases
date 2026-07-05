@@ -22,9 +22,7 @@ notes and the `SHA256SUMS.txt` checksum file.
 
 Download `FaceForge-v0.1.0-alpha-win-x64.zip`:
 
-```text
-PENDING_EXTERNAL_DOWNLOAD_URL
-```
+[FaceForge-v0.1.0-alpha-win-x64.zip (Google Drive)](https://drive.google.com/file/d/1Ltxfm12nJDte8t6kmQ-VFJDAv-wFUAIE/view?usp=sharing)
 
 SHA-256:
 
