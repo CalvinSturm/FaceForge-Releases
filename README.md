@@ -19,7 +19,7 @@ Get FaceForge from the official itch.io page:
 
 Direct download `FaceForge-v0.1.0-alpha-win-x64.zip`:
 
-[FaceForge-v0.1.0-alpha-win-x64.zip (Google Drive)](https://drive.google.com/file/d/1Ltxfm12nJDte8t6kmQ-VFJDAv-wFUAIE/view?usp=sharing)
+https://drive.google.com/file/d/1W16sTV0GK6MMdE7m_sQLaIKFvFb--qZa/view?usp=sharing
 
 SHA-256:
 
